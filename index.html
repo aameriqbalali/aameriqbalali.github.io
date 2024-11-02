@@ -35,15 +35,18 @@
   <header id="header" class="header sticky-top">
 
     <div class="topbar d-flex align-items-center">
-      <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="d-none d-md-flex align-items-center">
-          <i class="bi bi-clock me-1"></i> Monday - Saturday, 6PM to 9PM
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+          <i class="bi bi-clock me-1"></i>
+          <span class="small-text">Monday - Saturday, 6PM to 9PM</span>
         </div>
         <div class="d-flex align-items-center">
-          <i class="bi bi-phone me-1"></i> Call us now +91-9960158050
+          <i class="bi bi-phone me-1"></i>
+          <span class="small-text">+91 9960158050</span>
         </div>
       </div>
-    </div><!-- End Top Bar -->
+    </div>
+    
 
     <div class="branding d-flex align-items-center">
 
@@ -77,7 +80,10 @@
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li> --> 
+            <li><a href="#testimonials">Testimonial</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
+
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -599,14 +605,16 @@
         <div class="info-item d-flex flex-column justify-content-center align-items-center mb-4" data-aos="fade-up" data-aos-delay="300">
           <i class="bi bi-telephone"></i>
           <h3>Call Us</h3>
-          <p>+91 9969158050</p>
+          <p>+91 9960158050</p>
         </div>
 
-        <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-          <i class="bi bi-envelope"></i>
-          <h3>Email Us</h3>
-          <p>aameriqbalali@outlook.com</p>
+        <div class="info-item d-flex flex-column justify-content-center align-items-center mb-4" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-calendar"></i>
+          <h3>Our Timings</h3>
+          <p>Monday to Saturday</p>
+          <p>6:00 PM to 9:00 PM</p>
         </div>
+
       </div><!-- End Contact Information -->
 
     </div>
@@ -645,6 +653,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        AOS.init();
+    });
+  </script>
 
 </body>
 

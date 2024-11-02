@@ -1971,3 +1971,18 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.topbar .container {
+  font-size: 0.9rem; /* Adjust font size for readability on mobile */
+  padding: 0.5rem 1rem; /* Add padding for a clean look */
+}
+
+.small-text {
+  font-size: 0.85rem; /* Smaller font for mobile display */
+}
+
+@media (min-width: 768px) {
+  .topbar .container {
+    font-size: 1rem; /* Regular font size on larger screens */
+  }
+}
